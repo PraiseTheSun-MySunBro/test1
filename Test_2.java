@@ -1,8 +1,8 @@
 public class Test {
-    private final String msg = "Hello World!";
-    private final int value = 2;
+    private static final String msg = "Hello World!";
+    private static final int value = 2;
 
     public static void main (String[] args) {
-        System.out.println(msg + " " + value);
+        System.out.println(msg);
     }
 }
